@@ -4,6 +4,7 @@ No logging implemented.
 
 The code can be run on Jenkins with the following commands:
 
+    docker run -d -p 8080:8080 qapropeller/qa-battle:latest
     cd %ProjectFolder%/QA_Propeller_Battle/
     mvn clear test
 
